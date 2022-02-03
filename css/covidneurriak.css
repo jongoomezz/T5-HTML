@@ -1,0 +1,31 @@
+/*COVID testuaren barruko funtsa*/
+#covidneurriak {
+    background: white;
+    text-align: center;
+    margin-top: 60px;
+}
+/*Covid irudia*/
+#covidneurriak img {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 40% ;
+}
+/*COVID testuaren kanpoaldeko fondoa*/
+main{
+    background: #f0f0f0;
+    padding: 15px 20px;
+    
+}
+
+article{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 40px;
+    background: #fff;
+}
+
+article p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}

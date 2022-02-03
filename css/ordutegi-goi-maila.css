@@ -1,0 +1,78 @@
+/*Taularen forma*/
+table {
+    border-style: outset;
+    text-align: center;
+    border-width: 4px;
+  }
+
+  .ordutegia{
+    margin-top:100px;
+    width: 100%;
+  }
+
+    main{
+      background: #f0f0f0;
+      padding: 50px 20px;
+      height: 50%;
+      width: 50%;
+    }
+  
+  th {
+    border-style: solid #7c7c7c;
+    text-align: center;
+    border-width: 1px;
+    background-color: #7c7c7c;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+  td {
+    border-style: solid #7c7c7c;
+    text-align: center;
+    border-width: 1px;
+  }
+  
+  table tr td:first-of-type {
+    background-color: #7c7c7c !important;
+  }
+  
+  tr:nth-child(5) {
+    background-color: #7c7c7c;
+    color: rgb(0, 0, 0);
+  }
+  /*Taularen koloreak*/
+  #Programazioa {
+    background-color: #FD6E63;
+  }
+  
+  #Datu_Baseak {
+    background-color: #FFC000;
+  }
+  
+  #Garapen_inguruneak {
+    background-color: #FFFF66;
+  }
+  
+  #Markatzeko_lengoaiak {
+    background-color: #00FF00;
+  }
+  
+  #Fol {
+    background-color: #FF99FF;
+  }
+
+  #Sistema_informatikoak {
+    background-color: #8DB3E2;
+  }
+
+
+  #hora{
+    margin-top: 40px;
+  
+  }
+  
+  #hora img{
+    width: 20%;
+    
+  
+  }

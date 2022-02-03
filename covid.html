@@ -5,17 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontaktua</title>
+    <title>Covid</title>
     <!--Kanpoko estilo-orri bat HTML dokumentu bati esteka daiteke HTMLren LINK elementuaren bidez-->
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/kontaktua.css">
+    <link rel="stylesheet" href="css/covidneurriak.css">
     <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
-<!--Txurdinagako argazkia eta bilaketa-barra-->
+<!--Txurdinagako argazkia eta Bilaketarako botoia-->
     <header>
         <div class="header__superior">
             <div class="logo">
@@ -53,22 +52,25 @@
 
         </div>
     </header>
-<!--Orriaren formularioa-->
-    <form class="form" action="https://formspree.io/f/myyokpkw" method="POST">
-        <div class="form__container">
-            <h2 class="form__title">Contáctame</h2>
-            <input type="text" class="form__input" placeholder="Nombre:" name="name">
-            <input type="email" class="form__input" placeholder="Email:" name="_replyto">
-            <textarea class="form__input form__input--message" placeholder="Mensaje" name="message"></textarea>
-
-            <input type="submit" value="Enviar" class="form__cta">
-        </div>
-    </form>
-    <!--Google maps interaktiboa-->
-    <div id="mapa">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15586.658372306174!2d-2.900492683636845!3d43.26244081611421!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x364f27e82def0130!2sCIFP%20Txurdinaga%20LHII!5e1!3m2!1ses!2ses!4v1642508303656!5m2!1ses!2ses"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<!--Covideko neurrien arkazkia-->
+    <div id="covidneurriak">
+        <img src="img/covidneurriak.jpg" alt="">
+        <!--Covideko neurrien textua-->
+        <main>
+            <article>
+                <h2>Covid Neurriak</h2>
+                <p>1. Eraman maskara beti.</p>
+                <p>2. Eztul edo doministiku egitean, ez kendu maskara, eta estali ahoa eta sudurraukondoa tolestuta.</p>
+                <p>3. Ahal den guztietan, gutxienez 1,2 metroko distantzia mantentzea beste pertsonabatzuekin.</p>
+                <p>4. Erabili eta botatzeko paperezko musuzapiak erabili ondoren, paperontzi itxietarabota.</p>
+                <p>5. Saihestu ahoa, sudurra edo begiak ukitzea.</p>
+                <p>6. Ahal den neurrian, ekipoen eta gailuen erabilera partekatua saihestea(ordenagailuak, telefonoak,
+                    etab.).</p>
+                <p>7. Ahal dela eskuak ur eta xaboiarekin garbitu edo, bestela, gel
+                    hidroalkoholikoarekin, zentrora sartu aurretik eta ondoren, komunera joan eta
+                    kutsatuta egon daitezkeen objektuak ukitu.</p>
+            </article>
+        </main>
     </div>
 <!--Orrialdeko footerra-->
     <footer class="pie-pagina">

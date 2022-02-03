@@ -1,0 +1,48 @@
+
+/*erdi mailako textuaren edizio*/
+#bi {
+    margin-top: 50px;
+    border: solid;
+    margin-bottom: 20px;
+    background-color: white;
+    margin-left: 277px;
+    margin-right: 35px;
+    width: 71%;
+    background-color:#e4e4e4;
+}
+
+
+/*Argazkiaren edizioa*/
+#argazkiaikasgaiak {
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    margin-left: 42.125px;
+}
+
+h3{
+    margin-left: 20px;
+}
+
+p{
+    margin-left: 20px;
+}
+
+ol {
+    margin-left: 30px;
+}
+/*Goi mailako textuaren edizio*/
+#hiru {
+    margin-top: 50px;
+    border: solid;
+    margin-bottom: 20px;
+    background-color: white;
+    margin-left: 277px;
+    margin-right: 35px;
+    width: 71%;
+    background-color:#e4e4e4;
+}
+

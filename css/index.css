@@ -1,0 +1,21 @@
+/*Izenburua eta multimedia bideoa*/
+#informatika{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+/*Bideoaren marjina*/
+#video{
+    margin-top: 20px;
+}
+/*Bideoaren funtsa*/
+main{
+    background: #f0f0f0;
+    padding: 15px 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    
+    
+}
+
