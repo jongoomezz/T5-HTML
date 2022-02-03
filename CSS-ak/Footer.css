@@ -1,0 +1,17 @@
+/*Orri-oinaren itxura*/
+
+.pie-pagina .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    
+}
+
+.pie-pagina .grupo-2 small {
+    font-size: 15px;
+}
